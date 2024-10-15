@@ -64,22 +64,21 @@ https://www.youtube.com/watch?v=7Rd-Gj8o-6Q)
 
 ### Pipenv
 
-Pipenv es una herramienta que nos permite gestionar entornos virtuales y dependencias de proyectos en Python. Pipenv utiliza `pip` para instalar paquetes y `virtualenv` para crear entornos virtuales.
+Pipenv es una herramienta que nos permite gestionar entornos virtuales y dependencias de proyectos en Python. Pipenv utiliza `pip` para instalar paquetes y `virtualenv` para crear entornos virtuales. Es la opción más simple y ligera para proyectos pequeños en Python.
 
 ### Poetry
 
-Poetry es otra herramienta para gestionar dependencias y entornos virtuales en Python. Poetry utiliza un archivo `pyproject.toml` para gestionar las dependencias y el entorno virtual.
+Poetry es otra herramienta para gestionar dependencias y entornos virtuales en Python. Centrada en proyectos específicos de Python que requieren una gestión avanzada de dependencias y buscan un flujo de trabajo automatizado y simplificado, especialmente para la reproducibilidad y la publicación.
 
 ### Conda
 
-Conda es un gestor de paquetes y entornos virtuales que viene incluido en la distribución de Anaconda. Conda nos permite instalar paquetes de Python y otros lenguajes de programación, y gestionar entornos virtuales.
+Conda es un gestor de paquetes y entornos virtuales que viene incluido en la distribución de Anaconda. Conda nos permite instalar paquetes de Python y otros lenguajes de programación, y gestionar entornos virtuales. Es la opción más usada para *machine learning* y *data science*.
 
 
 ## Anaconda
 
 Anaconda es una distribución de Python que incluye muchas de las librerías más populares para ciencia de datos y *machine learning*. Anaconda incluye un gestor de paquetes llamado `conda` que nos permite instalar y gestionar paquetes de Python y otros lenguajes de programación y gestionar entornos virtuales (*virtual environments*).
 Existe también una versión reducida de Anaconda llamada Miniconda.
-
 
 
 

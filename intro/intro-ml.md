@@ -2,9 +2,7 @@
 
 ## Definición
 
-El concepto de Inteligencia Artificial tiene muchas definiciones y su uso ha ido evolucionando a lo largo del tiempo. El ámbito en el que trabajaremos se centra en el *machine learning* o aprendizaje automático.
-
-El *machine learning*, o aprendizaje automático es un subcampo de la inteligencia artificial.
+El concepto de Inteligencia Artificial tiene muchas definiciones y su uso ha ido evolucionando a lo largo del tiempo. El ámbito en el que trabajaremos se centra en el *machine learning* o aprendizaje automático, que podemos considerar un subcampo de la inteligencia artificial.
 
 <img src="img/AI_hierarchy.svg.png" width="200">
 

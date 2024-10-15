@@ -81,7 +81,6 @@ Anaconda es una distribución de Python que incluye muchas de las librerías má
 Existe también una versión reducida de Anaconda llamada Miniconda.
 
 
-
 ## [Google Colab](https://colab.research.google.com/)
 
 Google Colab es un servicio gratuito de Google que nos permite ejecutar *notebooks* de Jupyter en la nube. Colab nos permite ejecutar código en Python, R y otros lenguajes de programación, y nos proporciona acceso a recursos de hardware como GPUs y TPUs.

@@ -21,12 +21,13 @@ Ejercicio propuesto de Python:
 - Mojo: Intenta conseguir la usabilidad de Python, con un rendimiento similar al de C.
 
 
-## Git y repositorios de código
+## Git y forjas
 
 Git es un sistema de control de versiones distribuido, que nos permite llevar un registro de los cambios en el código fuente de un proyecto.
+Las forjas de Git son servicios que nos permiten alojar nuestros repositorios de Git en la nube. Algunas de las forjas más populares son GitHub, GitLab y Bitbucket. Durante este curso usaremos extensivamente Git y GitHub.
 
-[Recursos Git y GitHub](https://github.com/avidaldo/recursos-git)
-[Git y GitHub para PIA](https://www.youtube.com/watch?v=T1tYBbiWTbc)
+- [Recursos Git y GitHub](https://github.com/avidaldo/recursos-git)
+- [Git y GitHub para PIA](https://www.youtube.com/watch?v=T1tYBbiWTbc)
 
 
 ## IDEs (Entorno de Desarrollo Integrado)
@@ -35,7 +36,7 @@ Git es un sistema de control de versiones distribuido, que nos permite llevar un
 
 Visual Studio Code es un editor de código fuente desarrollado por Microsoft. Es multiplataforma y soporta múltiples lenguajes de programación. Es uno de los editores más populares entre los desarrolladores de software.
 
-[VISUAL STUDIO CODE: Tutorial para principiantes](https://www.youtube.com/watch?v=CxF3ykWP1H4)
+- [VISUAL STUDIO CODE: Tutorial para principiantes](https://www.youtube.com/watch?v=CxF3ykWP1H4)
 
 ### [Cursor](https://www.cursor.com/)
 
@@ -59,8 +60,7 @@ Jupyter es una aplicación que nos permite crear *notebooks* (documentos que com
 
 Los entornos virtuales nos permiten aislar las dependencias de un proyecto de las del sistema operativo. Esto nos permite tener diferentes versiones de las mismas librerías en diferentes proyectos, sin que haya conflictos entre ellas.
 
-[Introducción a pip, conda y entornos virtuales](
-https://www.youtube.com/watch?v=7Rd-Gj8o-6Q)
+ - [Introducción a pip, conda y entornos virtuales](https://www.youtube.com/watch?v=7Rd-Gj8o-6Q)
 
 ### Pipenv
 
@@ -74,12 +74,10 @@ Poetry es otra herramienta para gestionar dependencias y entornos virtuales en P
 
 Conda es un gestor de paquetes y entornos virtuales que viene incluido en la distribución de Anaconda. Conda nos permite instalar paquetes de Python y otros lenguajes de programación, y gestionar entornos virtuales. Es la opción más usada para *machine learning* y *data science*.
 
-
 ## Anaconda
 
 Anaconda es una distribución de Python que incluye muchas de las librerías más populares para ciencia de datos y *machine learning*. Anaconda incluye un gestor de paquetes llamado `conda` que nos permite instalar y gestionar paquetes de Python y otros lenguajes de programación y gestionar entornos virtuales (*virtual environments*).
 Existe también una versión reducida de Anaconda llamada Miniconda.
-
 
 ## [Google Colab](https://colab.research.google.com/)
 

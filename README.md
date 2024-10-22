@@ -17,3 +17,4 @@
 ## Recursos adicionales externos
 
 - [Basic Mathemathics for Machine Learning](https://github.com/hrnbot/Basic-Mathematics-for-Machine-Learning)
+- [Apuntes sobre probabilidad bayesiana](https://github.com/avidaldo/mates_ml)

@@ -4,15 +4,15 @@
 
 El concepto de Inteligencia Artificial tiene muchas definiciones y su uso ha ido evolucionando a lo largo del tiempo. El ámbito en el que trabajaremos se centra en el *machine learning* o aprendizaje automático, que podemos considerar un subcampo de la inteligencia artificial.
 
-<img src="img/AI_hierarchy.svg.png" width="200">
+<img src="img/AI_hierarchy.svg.png" width="200" style="margin: 20px;">
 
 El término pone el énfasis en el **aprendizaje** y podríamos establecer la diferencia en que el el ***machine learning*** se utiliza para resolver problemas para los cuales los humanos no somos capaces de desarrollar algoritmos por nosotros mismos. En lugar de simplemente programar un algoritmo que resuelve el problema, este resuelven ayudando a las máquinas a descubrir sus propios algoritmos, sin necesidad de que se les diga explícitamente.
 
-En IA tradicional, el algoritmo se programa porque se conoce un modelo que describe el problema. En *machine learning*, el algoritmo se entrena con un conjunto de datos de entrada y salida, y el modelo se genera a partir de los datos de entrenamiento, de modo que este modelo se puede utilizar para predecir la salida cuando se le da un nuevo conjunto de datos de entrada.
+El *machine learning* dota a los sistemas de la capacidad de aprender de los datos, identificar patrones y tomar decisiones con mínima intervención humana. A diferencia de la **IA tradicional, donde los programas se diseñan con reglas explícitas**, el **ML construye modelos a partir de datos**.
 
-<img src="img/reglas_vs_ml.jpg" width="500">
+<img src="img/reglas_vs_ml.jpg" width="500" style="margin: 20px;">  
 
-En los años 90 aparece la primera aplicación realmente popular de *machine learning*: el filtro de spam. En los últimos años, ha dado lugar a una revolución en la visión por computador, el reconocimiento de voz, la comprensión del lenguaje natural, la conducción autónoma y muchos otros campos.
+En los años 90 aparece la primera aplicación realmente popular de *machine learning*: el **filtro de spam**. En los últimos años, ha dado lugar a una revolución en la visión por computador, el reconocimiento de voz, el procesado de lenguaje natural (***Natural Language Processing*, NLP**), la conducción autónoma y muchos otros campos.
 
 Un par de definiciones clásicas son las siguientes:
 
@@ -32,7 +32,7 @@ Un par de definiciones clásicas son las siguientes:
 
 Un modelo es una descripción articulada y abstracta de una realidad. es una representación de un sistema que se utiliza para comprenderlo y predecir su comportamiento.
 
-En *machine learning*, los modelos son los que entrenemos basándonos en uno u otro algoritmo de aprendizaje. Son los que se utilizan para predecir la respuesta correcta cuando se le da un nuevo conjunto de datos de entrada con los que pretenderemos predecir la salida.
+En *machine learning*, los modelos son los que **entrenamos** basándonos en uno u otro algoritmo de aprendizaje. Son los que se utilizan para predecir la respuesta correcta cuando se le da un nuevo conjunto de datos de entrada con los que pretenderemos predecir la salida.
 
 ## Paradigmas de aprendizaje / Clasificación según la supervisión del aprendizaje
 
@@ -42,24 +42,36 @@ En *machine learning*, los modelos son los que entrenemos basándonos en uno u o
 
 ### Aprendizaje supervisado (*supervised learning*)
 
-Se da cuando el conjunto de datos de entrenamiento está etiquetado con la respuesta correcta. El algoritmo de aprendizaje recibe un conjunto de datos de entrenamiento y, sabiendo la respuesta correcta para cada uno, infiere el modelo que genera esa respuesta para esos datos.
+Se da cuando el conjunto de datos de entrenamiento está **etiquetado con la respuesta correcta**. El algoritmo de aprendizaje recibe un conjunto de datos de entrenamiento y, sabiendo la respuesta correcta para cada uno, infiere el modelo que genera esa respuesta para esos datos.
 
-Una tarea típica de aprendizaje supervisado es la **clasificación**: si pensamos en el caso del spam, un algoritmo puede aprender examinar muchos ejemplos de correos electrónicos que ya han etiquetados como spam y no spam, infiriendo, por ejemplo que ciertas palabras son casi siempre spam y que los correos electrónicos que provienen determinados email no son nunca spam. De este modo, cuanto más se entrene el algoritmo (cuantos más ejemplos de emails etiquetados se le den), mejor será su capacidad para filtrar el spam.
+#### Clasificación
+
+Una tarea típica de aprendizaje supervisado es la **clasificación**: si pensamos en el caso del spam, un algoritmo puede aprender examinar muchos **ejemplos de correos electrónicos que ya han etiquetados como spam y no spam**, infiriendo, por ejemplo que ciertas palabras son casi siempre spam y que los correos electrónicos que provienen determinados email no son nunca spam. De este modo, cuanto más se entrene el algoritmo (cuantos más ejemplos de emails etiquetados se le den), mejor será su capacidad para filtrar el spam.
+
+Otro ejemplo de clasificación sería el reconocimiento de dígitos escritos a mano, donde el algoritmo recibe imágenes de dígitos escritos a mano y debe clasificarlas en los dígitos del 0 al 9.
+
+#### Regresión
+
+En los problemas de **regresión**, el objetivo es predecir un **valor continuo**. Por ejemplo, predecir el precio de una casa en función de sus características, como el número de habitaciones, el tamaño del jardín, la ubicación, etc. En estos casos, en lugar de tener cada ejemplo etiquetado con una clase (spam o no spam, el dígito que se corresponde a la imagen, foto de perro o foto de gato) como en la clasificación, cada ejemplo tiene una etiqueta numérica (el precio de la casa, que puede ser cualquier número real).
 
 ### Aprendizaje no supervisado (*unsupervised learning*)
+
+#### Clustering
 
 En el aprendizaje no supervisado, el conjunto de datos de entrenamiento no está etiquetado con la respuesta correcta. Su objetivo es descubrir patrones en los datos. Por ejemplo, se puede utilizar para agrupar los datos de entrada en grupos, lo que se conoce como **clustering**.
 
 Ejemplos de clustering serían agrupar los clientes de una empresa en grupos de clientes similares para adaptar mejor los productos y servicios a cada grupo o los sistemas de recomendación de productos en tiendas online.
 
+#### Reducción de la dimensionalidad (*dimensionality reduction*)
+
+Otro ejemplo de aprendizaje no supervisado es la **reducción de la dimensionalidad**, que consiste en reducir el número de variables de un conjunto de datos. Por ejemplo, si tenemos un conjunto de datos con muchas variables, algunas de las cuales pueden ser redundantes o irrelevantes, podemos utilizar técnicas de reducción de la dimensionalidad para reducir el número de variables y simplificar el modelo.
+
+El caso más común de reducción de la dimensionalidad es el análisis de componentes principales (***principal component analysis*, PCA**), que es una técnica que transforma un conjunto de datos en un conjunto de variables no correlacionadas llamadas componentes principales.
+
+<img src="img/tipos-ml-clasico.jpg" width="400">
+
 ### Aprendizaje por refuerzo (*reinforcement learning*)
 
 En el aprendizaje por refuerzo, el algoritmo de aprendizaje, llamado **agente**, aprende mediante refuerzos y castigos. El agente recibe un entorno y realiza acciones en el entorno. El entorno devuelve un refuerzo o castigo al agente, dependiendo de si la acción fue beneficiosa o perjudicial para el agente. El objetivo del agente es maximizar el refuerzo total que recibe del entorno.
 
-Ejemplos podrían ser en robótica (enseñando a un robot a caminar) o en juegos (enseñando a un ordenador a jugar al ajedrez).
-
-<img src="img/tipos-ml-clasico.jpg" width="400">
-
-## Fuentes
-
-- [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition. Aurélien Géron](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/)
+Múltiples ejemplos se encuentran en robótica (enseñando a un robot a caminar) o en juegos (enseñando a un ordenador a jugar al ajedrez).

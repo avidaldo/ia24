@@ -28,7 +28,7 @@ Un par de definiciones clásicas son las siguientes:
 
 ## Modelos
 
-[Modelos para entender una realidad caótica | DotCSV](https://www.youtube.com/watch?v=Sb8XVheowVQ)
+> [Modelos para entender una realidad caótica | DotCSV](https://www.youtube.com/watch?v=Sb8XVheowVQ)
 
 Un modelo es una descripción articulada y abstracta de una realidad. es una representación de un sistema que se utiliza para comprenderlo y predecir su comportamiento.
 
@@ -36,9 +36,9 @@ En *machine learning*, los modelos son los que **entrenamos** basándonos en uno
 
 ## Paradigmas de aprendizaje / Clasificación según la supervisión del aprendizaje
 
-- [¿Qué es el Aprendizaje Supervisado y No Supervisado? | DotCSV](https://www.youtube.com/watch?v=oT3arRRB2Cw)
+> [¿Qué es el Aprendizaje Supervisado y No Supervisado? | DotCSV](https://www.youtube.com/watch?v=oT3arRRB2Cw)
 
-- [Sistemas de aprendizaje automático: supervisado, no supervisado](https://openwebinars.net/academia/aprende/fundamentos-inteligencia-artificial/21829/#)
+> [Sistemas de aprendizaje automático: supervisado, no supervisado](https://openwebinars.net/academia/aprende/fundamentos-inteligencia-artificial/21829/#)
 
 ### Aprendizaje supervisado (*supervised learning*)
 

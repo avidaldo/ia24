@@ -6,7 +6,7 @@ Cuando Python comenzó a ganar popularidad en los años 2000, surgió la necesid
 
 ### 1. **Pip**: El Gestor de Paquetes Estándar
 
-`pip` apareció en 2008 y se convirtió en el estándar para instalar paquetes desde el repositorio oficial de Python, el **Python Package Index (PyPI)** fácilmente con un comando (`pip install paquete`).
+`pip` apareció en 2008 y se convirtió en el estándar para instalar paquetes desde el repositorio oficial de Python, el [**Python Package Index (PyPI)** (https://pypi.org/)]fácilmente con un comando (`pip install paquete`).
 
 Para reproducir el entorno en el que un proyecto fue desarrollado, `pip` utiliza archivos `requirements.txt`, que listan las librerías necesarias con las versiones específicas, pero al usarlos se sobreescriben las dependencias globales del sistema.
   

@@ -62,7 +62,6 @@ Los **entornos virtuales (*virtual environments*)** nos permiten aislar las **de
 
  - [Introducción a pip, conda y entornos virtuales](https://www.youtube.com/watch?v=7Rd-Gj8o-6Q)
 
-
 ### [Gestión de dependencias y entornos virtuales en Python](extra/py_dependencies.md)
 
 ### **Conda**

@@ -2,15 +2,15 @@
 
 ## Definición
 
-El concepto de Inteligencia Artificial tiene muchas definiciones y su uso ha ido evolucionando a lo largo del tiempo. El ámbito en el que trabajaremos se centra en el *machine learning* o aprendizaje automático, que podemos considerar un subcampo de la inteligencia artificial.
+### *Machine Learning* vs. Inteligencia Artificial
 
-<img src="img/AI_hierarchy.svg.png" width="200" style="margin: 20px;">
+El concepto de Inteligencia Artificial tiene muchas definiciones y su uso ha ido evolucionando a lo largo del tiempo. El ámbito en el que trabajaremos se centra en el ***machine learning* o aprendizaje automático**, que podemos considerar un subcampo de la inteligencia artificial.
 
-El término pone el énfasis en el **aprendizaje** y podríamos establecer la diferencia en que el el ***machine learning*** se utiliza para resolver problemas para los cuales los humanos no somos capaces de desarrollar algoritmos por nosotros mismos. En lugar de simplemente programar un algoritmo que resuelve el problema, este resuelven ayudando a las máquinas a descubrir sus propios algoritmos, sin necesidad de que se les diga explícitamente.
+<img src="img/ai_hierarchy.png" width="200" style="margin: 20px;">
 
-El *machine learning* dota a los sistemas de la capacidad de aprender de los datos, identificar patrones y tomar decisiones con mínima intervención humana. A diferencia de la **IA tradicional, donde los programas se diseñan con reglas explícitas**, el **ML construye modelos a partir de datos**.
+El término pone el énfasis en el **aprendizaje** y podríamos establecer la diferencia en que el el ***machine learning*** se utiliza para resolver problemas para los cuales los humanos no somos capaces de desarrollar algoritmos por nosotros mismos. En lugar de simplemente programar un algoritmo que resuelve el problema, la máquinas aprende a descubrir su propio algoritmos, sin necesidad de que se les diga explícitamente.
 
-<img src="img/reglas_vs_ml.jpg" width="500" style="margin: 20px;">  
+El *machine learning* dota a los sistemas de la capacidad de aprender de los datos con los que se entrena el modelo, identificar patrones y tomar decisiones con mínima intervención humana. A diferencia de la **IA tradicional, donde los programas se diseñan con reglas explícitas**, el **ML construye modelos aprendiendo a partir de datos**, y cuanto más datos se le proporcionan, más aprende y mejor es el **modelo** que construye.
 
 En los años 90 aparece la primera aplicación realmente popular de *machine learning*: el **filtro de spam**. En los últimos años, ha dado lugar a una revolución en la visión por computador, el reconocimiento de voz, el procesado de lenguaje natural (***Natural Language Processing*, NLP**), la conducción autónoma y muchos otros campos.
 
@@ -26,19 +26,27 @@ Un par de definiciones clásicas son las siguientes:
 
 <!-- TODO: Dependencia e interacción con Big Data -->
 
+### *Deep Learning*
+
+El ***Deep Learning*, o aprendizaje profundo**, es una subdisciplina del aprendizaje automático que ha ganado un auge histórico en la última década gracias al incremento en la capacidad de procesamiento del hardware (GPGPU) que ha permitido utilizar **redes neuronales artificiales** con muchas capas (el término "profundo" hace referencia a la profundidad de la red, es decir, al número de capas que tiene).	
+
+A diferencia de los métodos de aprendizaje automático tradicionales, el *deep learning* se basa en arquitecturas compuestas por múltiples capas de neuronas artificiales que pueden capturar patrones complejos y jerárquicos en grandes cantidades de datos. Esto ha permitido resolver tareas antes inalcanzables, como el reconocimiento de imágenes a nivel humano y el procesamiento avanzado de lenguaje natural.
+
+
 ## Modelos
 
 > [Modelos para entender una realidad caótica | DotCSV](https://www.youtube.com/watch?v=Sb8XVheowVQ)
 
 Un modelo es una descripción articulada y abstracta de una realidad. es una representación de un sistema que se utiliza para comprenderlo y predecir su comportamiento.
 
-En *machine learning*, los modelos son los que **entrenamos** basándonos en uno u otro algoritmo de aprendizaje. Son los que se utilizan para predecir la respuesta correcta cuando se le da un nuevo conjunto de datos de entrada con los que pretenderemos predecir la salida.
+En *machine learning*, los modelos son los que **entrenamos** con datos basándonos en uno u otro algoritmo de aprendizaje. Básicamente el *machine learning* aprende modelos a base de ajustarse a una gran cantidad de ejemplos. Son los que se utilizan para predecir la respuesta correcta cuando se le da un nuevo conjunto de datos de entrada con los que pretenderemos predecir la salida.
 
 ## Paradigmas de aprendizaje / Clasificación según la supervisión del aprendizaje
 
-> [¿Qué es el Aprendizaje Supervisado y No Supervisado? | DotCSV](https://www.youtube.com/watch?v=oT3arRRB2Cw)
 
-> [Sistemas de aprendizaje automático: supervisado, no supervisado](https://openwebinars.net/academia/aprende/fundamentos-inteligencia-artificial/21829/#)
+![ML paradigms](img/ml_paradigms.jpg)
+
+> [¿Qué es el Aprendizaje Supervisado y No Supervisado? | DotCSV](https://www.youtube.com/watch?v=oT3arRRB2Cw)
 
 ### Aprendizaje supervisado (*supervised learning*)
 
@@ -64,7 +72,7 @@ Ejemplos de clustering serían agrupar los clientes de una empresa en grupos de 
 
 #### Reducción de la dimensionalidad (*dimensionality reduction*)
 
-Otro ejemplo de aprendizaje no supervisado es la **reducción de la dimensionalidad**, que consiste en reducir el número de variables de un conjunto de datos. Por ejemplo, si tenemos un conjunto de datos con muchas variables, algunas de las cuales pueden ser redundantes o irrelevantes, podemos utilizar técnicas de reducción de la dimensionalidad para reducir el número de variables y simplificar el modelo.
+Otro ejemplo de aprendizaje no supervisado es la **reducción de la dimensionalidad**, que consiste en reducir el número de variables de un conjunto de datos. Por ejemplo, si tenemos un conjunto de datos con muchas variables, algunas de las cuales pueden ser redundantes o irrelevantes, podemos utilizar técnicas de reducción de la dimensionalidad para reducir el número de variables y simplificar el modelo. Esto permite reducir el tiempo de entrenamiento y hacer que el modelo sea más interpretable.
 
 El caso más común de reducción de la dimensionalidad es el análisis de componentes principales (***principal component analysis*, PCA**), que es una técnica que transforma un conjunto de datos en un conjunto de variables no correlacionadas llamadas componentes principales.
 

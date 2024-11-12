@@ -48,9 +48,16 @@ En *machine learning*, los modelos son los que **entrenamos** con datos basándo
 
 > [¿Qué es el Aprendizaje Supervisado y No Supervisado? | DotCSV](https://www.youtube.com/watch?v=oT3arRRB2Cw)
 
+> [Sistemas de aprendizaje automático: supervisado, no supervisado](https://openwebinars.net/academia/aprende/fundamentos-inteligencia-artificial/21829/#)
+
+
+<img src="img/tipos-ml-clasico.jpg" width="400">
+
 ### Aprendizaje supervisado (*supervised learning*)
 
 Se da cuando el conjunto de datos de entrenamiento está **etiquetado con la respuesta correcta**. El algoritmo de aprendizaje recibe un conjunto de datos de entrenamiento y, sabiendo la respuesta correcta para cada uno, infiere el modelo que genera esa respuesta para esos datos.
+
+<img src="img/reglas_vs_ml.jpg" width="500">
 
 #### Clasificación
 
@@ -64,9 +71,15 @@ En los problemas de **regresión**, el objetivo es predecir un **valor continuo*
 
 ### Aprendizaje no supervisado (*unsupervised learning*)
 
+En el aprendizaje no supervisado, el conjunto de datos de entrenamiento no está etiquetado con la respuesta correcta. Su objetivo es descubrir patrones en los datos. Por ejemplo, se puede utilizar para agrupar los datos de entrada en grupos, lo que se conoce como **clustering**.
+
 #### Clustering
 
-En el aprendizaje no supervisado, el conjunto de datos de entrenamiento no está etiquetado con la respuesta correcta. Su objetivo es descubrir patrones en los datos. Por ejemplo, se puede utilizar para agrupar los datos de entrada en grupos, lo que se conoce como **clustering**.
+[![](img/classification_vs_clustering.jpeg)](https://www.linkedin.com/pulse/supervised-vs-unsupervised-learning-whats-difference-smriti-saini)
+
+
+[<img src="img/classificatio_vs_clustering2.png" width="500">](https://www.researchgate.net/figure/Supervised-and-unsupervised-machine-learning-a-Schematic-representation-of-an_fig3_351953193)
+
 
 Ejemplos de clustering serían agrupar los clientes de una empresa en grupos de clientes similares para adaptar mejor los productos y servicios a cada grupo o los sistemas de recomendación de productos en tiendas online.
 
@@ -75,8 +88,6 @@ Ejemplos de clustering serían agrupar los clientes de una empresa en grupos de 
 Otro ejemplo de aprendizaje no supervisado es la **reducción de la dimensionalidad**, que consiste en reducir el número de variables de un conjunto de datos. Por ejemplo, si tenemos un conjunto de datos con muchas variables, algunas de las cuales pueden ser redundantes o irrelevantes, podemos utilizar técnicas de reducción de la dimensionalidad para reducir el número de variables y simplificar el modelo. Esto permite reducir el tiempo de entrenamiento y hacer que el modelo sea más interpretable.
 
 El caso más común de reducción de la dimensionalidad es el análisis de componentes principales (***principal component analysis*, PCA**), que es una técnica que transforma un conjunto de datos en un conjunto de variables no correlacionadas llamadas componentes principales.
-
-<img src="img/tipos-ml-clasico.jpg" width="400">
 
 ### Aprendizaje por refuerzo (*reinforcement learning*)
 

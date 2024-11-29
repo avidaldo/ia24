@@ -14,7 +14,8 @@
         - [Introducción, Series y estructura de DataFrame](./pandas/pandas1.ipynb)
         - [Operaciones con DataFrames](./pandas/pandas_dataframe_op.ipynb)
 
-- Conceptos y algoritmos básicos de *machine learning*
+- Algoritmos básicos de *machine learning*
+    - [K-Nearest Neighbors (KNN)](./algoritmos/knn.md)
     - [Regresión lineal simple](./algoritmos/regresion_lineal_simple.ipynb)
     - [Clasificación con regresión logística](./algoritmos/regresion_logistica.ipynb)
     - [Árboles de decisión](./algoritmos/decision_tree.ipynb)

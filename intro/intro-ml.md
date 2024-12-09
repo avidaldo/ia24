@@ -4,6 +4,7 @@
 
 ### *Machine Learning* vs. Inteligencia Artificial
 
+
 El concepto de Inteligencia Artificial tiene muchas definiciones y su uso ha ido evolucionando a lo largo del tiempo. El ámbito en el que trabajaremos se centra en el ***machine learning* o aprendizaje automático**, que podemos considerar un subcampo de la inteligencia artificial.
 
 <img src="img/ai_hierarchy.png" width="200" style="margin: 20px;">

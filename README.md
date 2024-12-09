@@ -50,5 +50,6 @@
 
 ## Recursos adicionales externos
 
+- [Data Science cheatsheet](data-science-cheatsheet.pdf)
 - [Apuntes sobre probabilidad bayesiana](https://github.com/avidaldo/mates_ml)
 - [Basic Mathemathics for Machine Learning](https://github.com/hrnbot/Basic-Mathematics-for-Machine-Learning)

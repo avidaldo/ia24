@@ -3,45 +3,43 @@
 ## Apuntes y ejemplos
 
 - [*Setup* y tecnologías que utilizaremos](./setup/setup.md)
-
 - [Introducción al Machine Learning](./intro/intro-ml.md)
-
 - NumPy y pandas
-    - NumPy
-        - [NumPy](./numpy/numpy1.ipynb)
-        - [Álgebra con NumPy](./numpy/numpy2_algebra.ipynb)
-    - Pandas
-        - [Introducción, Series y estructura de DataFrame](./pandas/pandas1.ipynb)
-        - [Operaciones con DataFrames](./pandas/pandas_dataframe_op.ipynb)
 
+  - NumPy
+    - [NumPy](./numpy/numpy1.ipynb)
+    - [Álgebra con NumPy](./numpy/numpy2_algebra.ipynb)
+  - Pandas
+    - [Introducción, Series y estructura de DataFrame](./pandas/pandas1.ipynb)
+    - [Operaciones con DataFrames](./pandas/pandas_dataframe_op.ipynb)
 - Algoritmos básicos de *machine learning*
-    - [K-Nearest Neighbors (KNN)](./algoritmos/knn.md)
-    - [Regresión lineal simple](./algoritmos/regresion_lineal_simple.ipynb)
-    - [Clasificación con regresión logística](./algoritmos/regresion_logistica.ipynb)
-    - [Árboles de decisión](./algoritmos/decision_tree.ipynb)
-    - [Clustering con K-means](./algoritmos/kmeans.ipynb)
 
-- Análisis de datos
-    - [Enmarcando un proyecto de *machine learning*](./end2end/e2e01_framing.ipynb)
-    - [Exploración de datos y *feature engineering* manual](./end2end/e2e03_eda.ipynb)
-
-- Conjuntos de entrenamiento y de test
-    - [Conjuntos de entrenamiento y de prueba](./end2end/e2e02_train_test.ipynb)
-    - [*Overfitting*](./algoritmos/regresion_overfitting.ipynb)
-
+  - [K-Nearest Neighbors (KNN)](./algoritmos/knn.md)
+  - [Regresión lineal simple](./algoritmos/regresion_lineal_simple.ipynb)
+  - [Clasificación con regresión logística](./algoritmos/regresion_logistica.ipynb)
+  - [Árboles de decisión](./algoritmos/decision_tree.ipynb)
+  - [Clustering con K-means](./algoritmos/kmeans.ipynb)
 
 - Modelos simples con Scikit-learn
-    - Clasificación
-        - [Regresión logística sobre Iris *Toy Dataset* de Scikit-learn](./sklearn/iris_logistic.ipynb)
-    - Regresión
-        - [Regresión lineal sobre diabetes *Toy Dataset* de Scikit-learn](./sklearn/diabetes_regression.ipynb)
-    - Clustering
-        - [Clustering de Iris con K-means y comparación con etiquetas](./sklearn/iris_clustering.ipynb)
 
+    - [Conjuntos de entrenamiento y test / *Overfitting*](./algoritmos/regresion_overfitting.ipynb)
+    - Clasificación
+      - [Regresión logística sobre Iris *Toy Dataset* de Scikit-learn](./sklearn/iris_logistic.ipynb)
+    - Regresión
+      - [Regresión lineal sobre diabetes *Toy Dataset* de Scikit-learn](./sklearn/diabetes_regression.ipynb)
+    - Clustering
+      - [Clustering de Iris con K-means y comparación con etiquetas](./sklearn/iris_clustering.ipynb)
+      
+- Proyecto completo de *machine learning*
+
+  - [Enmarcando un proyecto de *machine learning*](./end2end/e2e01_framing.ipynb)
+  - [Conjuntos de entrenamiento y de prueba](./end2end/e2e02_train_test.ipynb)
+  - [Exploración de datos y *feature engineering* manual](./end2end/e2e03_eda.ipynb)
 
 ## Recursos
 
 ### [Repositorios de tareas](https://github.com/orgs/avidaldo-ia24/repositories)
+
 ### [*Playlist* con explicaciones de clases](https://www.youtube.com/playlist?list=PLb-SkCRlWLK2B-rrVZ_QOp_27lF6MGcsG)
 
 ## Contenidos complementarios

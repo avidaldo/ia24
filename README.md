@@ -12,6 +12,7 @@
   - Pandas
     - [Introducción, Series y estructura de DataFrame](./pandas/pandas1.ipynb)
     - [Operaciones con DataFrames](./pandas/pandas_dataframe_op.ipynb)
+
 - Algoritmos básicos de *machine learning*
 
   - [K-Nearest Neighbors (KNN)](./algoritmos/knn.md)
@@ -30,11 +31,18 @@
     - Clustering
       - [Clustering de Iris con K-means y comparación con etiquetas](./sklearn/iris_clustering.ipynb)
       
-- Proyecto completo de *machine learning*
+- Proyecto completo de *machine learning*: predicción de precios de casas
 
   - [Enmarcando un proyecto de *machine learning*](./end2end/e2e01_framing.ipynb)
   - [Conjuntos de entrenamiento y de prueba](./end2end/e2e02_train_test.ipynb)
   - [Exploración de datos y *feature engineering* manual](./end2end/e2e03_eda.ipynb)
+  - Preprocesamiento de datos
+    - [Tipos de estimadores en scikit-learn](./sklearn/tipos_estimadores.md)
+    - [Tratamiento de valores no disponibles](./end2end/e2e041_missing.ipynb)
+    - [Tratamiento de *features* categóricas](./end2end/e2e042_categorical.ipynb)
+    - [Escalado de *features*](./end2end/e2e043_scaling.ipynb)
+    - [*Pipeline* de preprocesamiento](./end2end/e2e05_pipelines.ipynb)
+
 
 ## Recursos
 

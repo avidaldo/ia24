@@ -42,6 +42,7 @@
     - [Tratamiento de *features* categóricas](./end2end/e2e042_categorical.ipynb)
     - [Escalado de *features*](./end2end/e2e043_scaling.ipynb)
     - [*Pipeline* de preprocesamiento](./end2end/e2e05_pipelines.ipynb)
+  - [Entrenamiento y evaluación del modelo](./end2end/e2e06_model_evaluation.ipynb)
 
 
 ## Recursos

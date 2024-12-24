@@ -51,10 +51,6 @@
 
 ### [*Playlist* con explicaciones de clases](https://www.youtube.com/playlist?list=PLb-SkCRlWLK2B-rrVZ_QOp_27lF6MGcsG)
 
-## Contenidos complementarios
-
-- [Respositorio del curso 23/24](https://github.com/avidaldo/ia23)
-
 ## Recursos adicionales externos
 
 - [Data Science cheatsheet](data-science-cheatsheet.pdf)

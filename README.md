@@ -24,6 +24,7 @@
 - Modelos simples con Scikit-learn
 
     - [Conjuntos de entrenamiento y test / *Overfitting*](./algoritmos/regresion_overfitting.ipynb)
+    - [Tipos de estimadores en scikit-learn](./sklearn/tipos_estimadores.md)
     - Clasificación
       - [Regresión logística sobre Iris *Toy Dataset* de Scikit-learn](./sklearn/iris_logistic.ipynb)
     - Regresión
@@ -43,6 +44,8 @@
     - [Escalado de *features*](./end2end/e2e043_scaling.ipynb)
     - [*Pipeline* de preprocesamiento](./end2end/e2e05_pipelines.ipynb)
   - [Entrenamiento y evaluación del modelo](./end2end/e2e06_model_evaluation.ipynb)
+
+- [Clasificación de MNIST con SVM y evaluación de modelos de clasificación](./sklearn/mnist_svm_eval.ipynb)
 
 
 ## Recursos

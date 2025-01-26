@@ -15,7 +15,10 @@ En la siguiente imagen podemos ver cómo se generaría la superficie de decisió
 ![](https://upload.wikimedia.org/wikipedia/commons/7/78/KNN_decision_surface_animation.gif)
 
 
-Este algoritmo no "aprende", no se entrena ni se fijan valores de parámetros internos. Simplemente se utiliza el conjunto de datos como "base de conocimiento" y se hacen las predicciones sobre dicha base. Esto puede ser un inconveniente, pues cada vez que hay que hacer una predicción, se utiliza todo el dataset, y esto requiere de memoria y recursos de procesamiento importantes si estamos trabajando con un volumen grande de datos.
+Este algoritmo no "aprende", **no se entrena ni se fijan valores de parámetros internos**. Simplemente se utiliza el conjunto de datos como "base de conocimiento" y se hacen las predicciones sobre dicha base. Esto puede ser un inconveniente, pues **cada vez que hay que hacer una predicción, se utiliza todo el dataset, y esto requiere de memoria y recursos de procesamiento importantes**.
+
+Así, el "entrenamiento" es muy ligero ya que consiste solo en almacenar los datos de entrenamiento. Sin embargo, la predicción es muy costosa computacionalmente, ya que hay que calcular la distancia de cada punto de prueba a todos los puntos de entrenamiento. Por tanto, **KNN es un algoritmo lento y no es adecuado para conjuntos de datos grandes**.
+
 
 ## Regresión con KNN
 

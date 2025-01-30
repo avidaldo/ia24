@@ -45,6 +45,8 @@
     - [*Pipeline* de preprocesamiento](./end2end/e2e05_pipelines.ipynb)
   - [Entrenamiento y evaluación del modelo](./end2end/e2e06_model_evaluation.ipynb)
 
+- [Clarificando: ¿qué es un *pipeline*?](./sklearn/pipeline_definition.md)
+
 - [Clasificación de MNIST con SVM y evaluación de modelos de clasificación](./sklearn/mnist_svm_eval.ipynb)
 
 

@@ -14,8 +14,8 @@ graph LR
     B --> C[Modelo Entrenado]
     C --> D[Predicciones]
         
-    style B fill:#008000,stroke:#333,stroke-width:2px
-    style C fill:#008000,stroke:#333,stroke-width:2px
+    classDef pipeline fill:#00A000,stroke:#333,stroke-width:4px,font-size:20px,font-weight:bold;
+    class B,C pipeline;
 ```
 
 - **Estructura básica**:  
@@ -79,9 +79,8 @@ graph LR
     F --> D
     E --> G[Modelo Final]
 
-    classDef allNodes fill:#008000,stroke:#333,stroke-width:4px;
-    class A,B,C,D,E,F,G allNodes;
-
+    classDef pipeline fill:#00A000,stroke:#333,stroke-width:4px,font-size:20px,font-weight:bold;
+    class A,B,C,D,E,F,G pipeline;
 ```
 
 
@@ -112,6 +111,9 @@ graph LR
     D --> E[Despliegue en Producción]
     E --> F[Monitoreo y Retraining]
     F -->|Si hay drift| C
+
+    classDef pipeline fill:#00A000,stroke:#333,stroke-width:4px,font-size:20px,font-weight:bold;
+    class A,B,C,D,E,F,G pipeline;
 ```
 
 

@@ -32,7 +32,7 @@
     - Clustering
       - [Clustering de Iris con K-means y comparación con etiquetas](./sklearn/iris_clustering.ipynb)
       
-- Proyecto completo de *machine learning*: predicción de precios de casas
+- Proyecto completo de *machine learning*: predicción de precios de casas (regresión)
 
   - [Enmarcando un proyecto de *machine learning*](./end2end/e2e01_framing.ipynb)
   - [Conjuntos de entrenamiento y de prueba](./end2end/e2e02_train_test.ipynb)
@@ -44,6 +44,11 @@
     - [Escalado de *features*](./end2end/e2e043_scaling.ipynb)
     - [*Pipeline* de preprocesamiento](./end2end/e2e05_pipelines.ipynb)
   - [Entrenamiento y evaluación del modelo](./end2end/e2e06_model_evaluation.ipynb)
+
+- Otro problema de regresión: esperanza de vida
+  - [Analisis de datos](./life_expectancy/1_framing_eda.ipynb)
+  - [Análisis de preprocesamiento de datos (en particular valores perdidos)](./life_expectancy/2_missing_values.ipynb)
+  - [Pipeline de entrenamiento y evaluación de modelos](./life_expectancy/3_pipeline.ipynb)
 
 - [Clarificando: ¿qué es un *pipeline*?](./sklearn/pipeline_definition.md)
 

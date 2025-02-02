@@ -44,13 +44,14 @@
     - [Escalado de *features*](./end2end/e2e043_scaling.ipynb)
     - [*Pipeline* de preprocesamiento](./end2end/e2e05_pipelines.ipynb)
   - [Entrenamiento y evaluación del modelo](./end2end/e2e06_model_evaluation.ipynb)
+  
+- [Clarificando: ¿qué es un *pipeline*?](./sklearn/pipeline_definition.md)
 
 - Otro problema de regresión: esperanza de vida
   - [Analisis de datos](./life_expectancy/1_framing_eda.ipynb)
   - [Análisis de preprocesamiento de datos (en particular valores perdidos)](./life_expectancy/2_missing_values.ipynb)
   - [Pipeline de entrenamiento y evaluación de modelos](./life_expectancy/3_pipeline.ipynb)
 
-- [Clarificando: ¿qué es un *pipeline*?](./sklearn/pipeline_definition.md)
 
 - [Clasificación de MNIST con SVM y evaluación de modelos de clasificación](./sklearn/mnist_svm_eval.ipynb)
 

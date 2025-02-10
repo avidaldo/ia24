@@ -24,13 +24,12 @@ class FeatureEngineerTransformer(BaseEstimator, TransformerMixin):
         
         # 1. Combine thinness features
         X['thinness'] = X[['thinness1-19', 'thinness5-9']].mean(axis=1)
+        X.drop(columns=['thinness1-19', 'thinness5-9'], inplace=True)
         
         # 2. Handle Income zeros
         X['Income'] = X['Income'].replace(0, np.nan)
         
-        # 3. Drop specified columns using non-inplace operation
-        columns_to_drop = ['thinness1-19', 'thinness5-9']
-        return X.drop(columns=columns_to_drop)
+        return X
 
 class DynamicKNNImputer(BaseEstimator, TransformerMixin):
     def __init__(self):

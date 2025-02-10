@@ -12,12 +12,11 @@ import pandas as pd
 
 class FeatureEngineerTransformer(BaseEstimator, TransformerMixin):
     def __init__(self):
-        self.feature_names_in_ = None  # Initialize feature names
+        self._feature_names_in = None
 
     def fit(self, X, y=None):
-        # Store feature names if available
-        if hasattr(X, 'columns'):
-            self.feature_names_in_ = X.columns.tolist()
+        # Store feature names using scikit-learn's built-in validation
+        self._check_feature_names(X, reset=True)
         return self
 
     def transform(self, X):
@@ -55,7 +54,6 @@ class DynamicKNNImputer(BaseEstimator, TransformerMixin):
 class LifeExpectancyPredictor:
     def __init__(self):
         self.model = self._load_model()
-        self.preprocessor = self._get_preprocessor()
         
     def _load_model(self):
         try:
@@ -63,20 +61,9 @@ class LifeExpectancyPredictor:
         except Exception as e:
             raise RuntimeError(f"Model loading failed: {e}")
 
-    def _get_preprocessor(self):
-        """Extract preprocessing steps from the model pipeline"""
-        if hasattr(self.model, 'steps'):
-            for name, step in self.model.steps:
-                if isinstance(step, FeatureEngineerTransformer):
-                    return step
-        return None
-
     def predict(self, input_data: dict) -> float:
         """Process input through full pipeline"""
-        # Convert to DataFrame with expected input features
         input_df = pd.DataFrame([input_data], columns=self.model.feature_names_in_)
-        
-        # Let the pipeline handle all transformations
         return self.model.predict(input_df)[0]
 
     def _validate_input(self, input_data: dict):
@@ -151,9 +138,11 @@ class LifeExpectancyApp:
         except Exception as e:
             messagebox.showerror("Error", str(e))
 
+
 # =====================
 # RUN APPLICATION
 # =====================
+
 if __name__ == "__main__":
     root = tk.Tk()
     root.title("Life Expectancy Predictor")

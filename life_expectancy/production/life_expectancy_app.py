@@ -78,9 +78,11 @@ class LifeExpectancyPredictor:
             
         return input_data
 
+
 # =====================
 # SIMPLE GUI
 # =====================
+
 FIELDS = [
     "AdultMortality", "Alcohol", "percentExpenditure",
     "Polio", "Total expenditure", "Diphtheria",

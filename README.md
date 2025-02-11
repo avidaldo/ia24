@@ -9,6 +9,7 @@
   - NumPy
     - [NumPy](./numpy/numpy1.ipynb)
     - [Álgebra con NumPy](./numpy/numpy2_algebra.ipynb)
+
   - Pandas
     - [Introducción, Series y estructura de DataFrame](./pandas/pandas1.ipynb)
     - [Operaciones con DataFrames](./pandas/pandas_dataframe_op.ipynb)
@@ -54,6 +55,10 @@
   - [Aplicación simple para poner en producción el modelo](./life_expectancy/production/life_expectancy_app.py)
 
 - [Clasificación de MNIST con SVM y evaluación de modelos de clasificación](./sklearn/mnist_svm_eval.ipynb)
+
+- Clasificación: enfermedades de tiroides
+  - [Análisis de datos](./thyroid/eda.ipynb)
+  - [Modelo de clasificación](./thyroid/thyroid.ipynb)
 
 
 ## Recursos

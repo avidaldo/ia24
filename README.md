@@ -49,9 +49,9 @@
 - [Clarificando: ¿qué es un *pipeline*?](./sklearn/pipeline_definition.md)
 
 - Otro problema de regresión: esperanza de vida
-  - [Analisis de datos](./life_expectancy/training/1_framing_eda.ipynb)
+  - [Análisis de datos](./life_expectancy/training/1_framing_eda.ipynb)
   - [Análisis de preprocesamiento de datos (en particular valores perdidos)](./life_expectancy/training/2_missing_values.ipynb)
-  - [Pipeline de entrenamiento y evaluación de modelos](./life_expectancy/training/3_pipeline.ipynb)
+  - [*Pipeline* de entrenamiento y evaluación de modelos](./life_expectancy/training/3_pipeline.ipynb)
   - [Aplicación simple para poner en producción el modelo](./life_expectancy/production/life_expectancy_app.py)
 
 - [Clasificación de MNIST con SVM y evaluación de modelos de clasificación](./sklearn/mnist_svm_eval.ipynb)

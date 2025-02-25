@@ -59,6 +59,8 @@
 - Clasificación: enfermedades de tiroides
   - [Análisis de datos](./thyroid/eda.ipynb)
   - [Modelo de clasificación](./thyroid/thyroid.ipynb)
+  - [Variante binaria](./thyroid/thyroid_binary.ipynb)
+  - [Comprobando otros modelos](./thyroid/thyroid2.ipynb)
 
 
 ## Recursos

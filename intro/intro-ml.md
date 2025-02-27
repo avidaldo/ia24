@@ -65,6 +65,12 @@ Se da cuando el conjunto de datos de entrenamiento está **etiquetado con la res
 Una tarea típica de aprendizaje supervisado es la **clasificación**: si pensamos en el caso del spam, un algoritmo puede aprender examinar muchos **ejemplos de correos electrónicos que ya han etiquetados como spam y no spam**, infiriendo, por ejemplo que ciertas palabras son casi siempre spam y que los correos electrónicos que provienen determinados email no son nunca spam. De este modo, cuanto más se entrene el algoritmo (cuantos más ejemplos de emails etiquetados se le den), mejor será su capacidad para filtrar el spam.
 
 Otro ejemplo de clasificación sería el reconocimiento de dígitos escritos a mano, donde el algoritmo recibe imágenes de dígitos escritos a mano y debe clasificarlas en los dígitos del 0 al 9.
+Tipos de clasificación:
+
+- **Binaria**: cuando la salida es de dos clases (spam/no spam, positivo/negativo, etc.).
+- **Multiclase**: cuando la salida es de más de dos clases (reconocimiento de dígitos, clasificación de imágenes, etc.).
+- **Multietiqueta**: cuando la salida puede tener más de una etiqueta (por ejemplo, etiquetando música en géneros).
+
 
 #### Regresión
 
@@ -82,13 +88,24 @@ En el aprendizaje no supervisado, el conjunto de datos de entrenamiento no está
 [<img src="img/classificatio_vs_clustering2.png" width="500">](https://www.researchgate.net/figure/Supervised-and-unsupervised-machine-learning-a-Schematic-representation-of-an_fig3_351953193)
 
 
-Ejemplos de clustering serían agrupar los clientes de una empresa en grupos de clientes similares para adaptar mejor los productos y servicios a cada grupo o los sistemas de recomendación de productos en tiendas online.
+Un ejemplo de *clustering*  es la segmentación de clientes en grupos de clientes similares para adaptar mejor los productos y servicios a cada grupo. Esa segmentación puede utilizarse para sistemas de recomendación, marketing, etc.
+
+#### Minería de asociaciones
+
+Mientras que el *clustering* agrupa instancias (como clientes o productos) en grupos basándose en la similitud de sus características, la minería de reglas de asociación se centra en descubrir relaciones o patrones de co-ocurrencia entre elementos (por ejemplo, identificar que cuando se compra pan, también se compra mantequilla).
+
 
 #### Reducción de la dimensionalidad (*dimensionality reduction*)
 
-Otro ejemplo de aprendizaje no supervisado es la **reducción de la dimensionalidad**, que consiste en reducir el número de variables de un conjunto de datos. Por ejemplo, si tenemos un conjunto de datos con muchas variables, algunas de las cuales pueden ser redundantes o irrelevantes, podemos utilizar técnicas de reducción de la dimensionalidad para reducir el número de variables y simplificar el modelo. Esto permite reducir el tiempo de entrenamiento y hacer que el modelo sea más interpretable.
+Otro ejemplo de aprendizaje no supervisado es la **reducción de la dimensionalidad**, que consiste en reducir el número de variables de un conjunto de datos. Por ejemplo, si tenemos un conjunto de datos con muchas variables, algunas de las cuales pueden ser redundantes o irrelevantes, podemos utilizar técnicas de reducción de la dimensionalidad. Esto se utiliza típicamente antes de aplicar un algoritmo supervisado, para reducir el tiempo de entrenamiento y mejorar la precisión del modelo.
 
 El caso más común de reducción de la dimensionalidad es el análisis de componentes principales (***principal component analysis*, PCA**), que es una técnica que transforma un conjunto de datos en un conjunto de variables no correlacionadas llamadas componentes principales.
+
+
+#### Detección de anomalías
+
+Se centra en identificar puntos o patrones inusuales que se desvían significativamente del comportamiento normal del conjunto de datos. Se emplean en áreas como la detección de fraudes, la monitorización de sistemas y la seguridad, al marcar como anómalos datos que podrían indicar errores, ataques o comportamientos inesperados.
+
 
 ### Aprendizaje por refuerzo (*reinforcement learning*)
 

@@ -21,6 +21,7 @@
   - [Clasificación con regresión logística](./algoritmos/regresion_logistica.ipynb)
   - [Árboles de decisión](./algoritmos/decision_tree.ipynb)
   - [Clustering con K-means](./algoritmos/kmeans.ipynb)
+  
 
 - Modelos simples con Scikit-learn
 
@@ -35,16 +36,18 @@
       
 - Proyecto completo de *machine learning*: predicción de precios de casas (regresión)
 
-  - [Enmarcando un proyecto de *machine learning*](./end2end/e2e01_framing.ipynb)
-  - [Conjuntos de entrenamiento y de prueba](./end2end/e2e02_train_test.ipynb)
-  - [Exploración de datos y *feature engineering* manual](./end2end/e2e03_eda.ipynb)
+  - [Enmarcando un proyecto de *machine learning*](./end2end/e2e010_framing.ipynb)
+  - [Conjuntos de entrenamiento y de prueba](./end2end/e2e020_train_test.ipynb)
+  - [Exploración de datos y *feature engineering* manual](./end2end/e2e030_eda.ipynb)
   - Preprocesamiento de datos
     - [Tipos de estimadores en scikit-learn](./sklearn/tipos_estimadores.md)
     - [Tratamiento de valores no disponibles](./end2end/e2e041_missing.ipynb)
     - [Tratamiento de *features* categóricas](./end2end/e2e042_categorical.ipynb)
-    - [Escalado de *features*](./end2end/e2e043_scaling.ipynb)
-    - [*Pipeline* de preprocesamiento](./end2end/e2e05_pipelines.ipynb)
-  - [Entrenamiento y evaluación del modelo](./end2end/e2e06_model_evaluation.ipynb)
+    - [Escalamiento de *features*](./end2end/e2e043_scaling.ipynb)
+    - [*Pipeline* de preprocesamiento](./end2end/e2e050_pipelines.ipynb)
+    - [Transformadores personalizados](./end2end/e2e051_custom_transformers.ipynb)
+    - [Tratamiento de latitud y longitud](./end2end/e2e060_spatial_clustering.ipynb)
+  - [Entrenamiento y evaluación del modelo](./end2end/e2e070_model_evaluation.ipynb)
   
 - [Clarificando: ¿qué es un *pipeline*?](./sklearn/pipeline_definition.md)
 

@@ -8,7 +8,7 @@ Básicamente, KNN funciona de la siguiente manera: dado un conjunto de datos de 
 
 Por ejemplo, en la siguiente imagen, KNN con K=3 asignaría la etiqueta de clasificación "triángulo rojo" al punto de prueba verde porque de las 3 muestras más cercanas a él, la mayoría, dos, son triángulos rojos. Sin embargo, si K=5, KNN asignaría la etiqueta de clasificación "cuadrado azul" al punto de prueba.
 
-![](https://upload.wikimedia.org/wikipedia/commons/e/e7/KnnClassification.svg)
+![](./img/knn.png)
 
 En la siguiente imagen podemos ver cómo se generaría la superficie de decisión de un clasificador KNN con diferentes valores de K.
 

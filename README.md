@@ -34,7 +34,7 @@
     - Clustering
       - [Clustering de Iris con K-means y comparación con etiquetas](./sklearn/iris_clustering.ipynb)
       
-- Proyecto completo de *machine learning*: predicción de precios de casas (regresión)
+- Proyecto completo de *machine learning*: precio medio de viviendas por distrito de California (regresión)
 
   - [Enmarcando un proyecto de *machine learning*](./end2end/e2e010_framing.ipynb)
   - [Conjuntos de entrenamiento y de prueba](./end2end/e2e020_train_test.ipynb)

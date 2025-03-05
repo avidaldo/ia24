@@ -27,7 +27,6 @@
 ### Modelos simples con Scikit-learn
 
 - [Conjuntos de entrenamiento y test / *Overfitting*](./algoritmos/regresion_overfitting.ipynb)
-- [Tipos de estimadores en scikit-learn](./sklearn/tipos_estimadores.md)
 - Clasificación
   - [Regresión logística sobre Iris *Toy Dataset* de Scikit-learn](./sklearn/iris_logistic.ipynb)
 - Regresión
@@ -41,11 +40,11 @@
 - [Conjuntos de entrenamiento y de prueba](./end2end/e2e020_train_test.ipynb)
 - [Exploración de datos y *feature engineering* manual](./end2end/e2e030_eda.ipynb)
 - Preprocesamiento de datos
-  - [Tipos de estimadores en scikit-learn](./sklearn/tipos_estimadores.md)
   - [Tratamiento de valores no disponibles](./end2end/e2e041_missing.ipynb)
   - [Tratamiento de *features* categóricas](./end2end/e2e042_categorical.ipynb)
   - [Escalamiento de *features*](./end2end/e2e043_scaling.ipynb)
   - [*Pipeline* de preprocesamiento](./end2end/e2e050_pipelines.ipynb)
+    - [Tipos de estimadores en scikit-learn](./sklearn/tipos_estimadores.md)
     - [Clarificando: ¿qué es un *pipeline*?](./sklearn/pipeline_definition.md)
   - [Transformadores personalizados](./end2end/e2e051_custom_transformers.ipynb)
   - [Tratamiento de latitud y longitud](./end2end/e2e060_spatial_clustering.ipynb)

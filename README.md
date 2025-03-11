@@ -29,6 +29,7 @@
 - [Conjuntos de entrenamiento y test / *Overfitting*](./algoritmos/regresion_overfitting.ipynb)
 - Clasificación
   - [Regresión logística sobre Iris *Toy Dataset* de Scikit-learn](./sklearn/iris_logistic.ipynb)
+  - [Comparación de modelos de clasificación](./sklearn/iris_comparison_cv.py)
 - Regresión
   - [Regresión lineal sobre diabetes *Toy Dataset* de Scikit-learn](./sklearn/diabetes_regression.ipynb)
 - Clustering

@@ -28,7 +28,7 @@
     - 2018: **BERT** de Google establece nuevos récords en comprensión de lenguaje natural.
     - 2020: **GPT-3** de OpenAI demuestra capacidades emergentes en modelos de lenguaje a gran escala.
     - 2021: Los **modelos de difusión** (DALL-E, GLIDE) comienzan a dominar la generación de imágenes realistas.
-    - Noviembre 2022: **ChatGPT** (GPT-3.5) de OpenAI populariza los asistentes conversacionales.
+    - 2022: **ChatGPT** (GPT-3.5) de OpenAI populariza los asistentes conversacionales.
     - 2023: **GPT-4** de OpenAI y proliferación de modelos **multimodales** (texto, imagen, audio, video).
     - 2024: Primeros modelos con capacidades avanzadas de razonamiento (**OpenAI o1**).
     - 2025: **DeepSeek-R1** (open-weights) baja el coste de los modelos de lenguaje con un rendimiento similar al de o1.
@@ -39,6 +39,7 @@
 El perceptrón es la unidad fundamental de una red neuronal, inspirado en el funcionamiento básico de una neurona biológica.
 
 > [¿Qué es una Red Neuronal? Parte 1 : La Neurona | DotCSV](https://www.youtube.com/watch?v=MRIv2IwFTPg)
+> [ChatGPT is made from 100 million of these [The Perceptron]](https://www.youtube.com/watch?v=l-9ALe3U-Fg)
 
 ### Estructura del Perceptrón
 

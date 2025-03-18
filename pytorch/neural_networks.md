@@ -89,6 +89,7 @@ Para superar las limitaciones del perceptrón simple, surgieron las redes neuron
 
 ### Estructura de una Red Neuronal Multicapa
 
+
 Una red neuronal multicapa contiene:
 1. **Capa de entrada**: Recibe los datos iniciales
 2. **Capas ocultas**: Realizan transformaciones internas
@@ -226,6 +227,8 @@ for epoch in range(1000):
 ## ***Deep Learning***
 
 El *deep learning* se refiere a redes neuronales con múltiples capas ocultas que pueden aprender representaciones cada vez más abstractas.
+
+![Deep Learning](./img/deep_learning.jpg)
 
 ### Ventajas del Deep Learning
 

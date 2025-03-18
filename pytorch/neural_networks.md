@@ -24,7 +24,7 @@
     - 2014: **DeepFace** de Facebook alcanza precisión casi humana (97.35%) en reconocimiento facial.
     - 2014: Ian Goodfellow introduce las **GANs** (Generative Adversarial Networks), revolucionando la generación de contenido.
     - 2015: **ResNet** de Microsoft Research introduce conexiones residuales, permitiendo entrenar redes de más de 100 capas.
-    - 2016: **AlphaGo** de DeepMind derrota al campeón mundial Lee Sedol, redes neuronales profundas entrenadas mediante aprendizaje supervisado y por refuerzo con técnicas avanzadas de búsqueda de árboles Monte Carlo.
+    - 2016: **AlphaGo** de DeepMind derrota al campeón mundial Lee Sedol, redes neuronales profundas entrenadas mediante aprendizaje supervisado y por refuerzo con técnicas avanzadas de búsqueda de árboles Monte Carlo.([Documental](https://www.youtube.com/watch?v=WXuK6gekU1Y)).
     - 2017: Aparece la arquitectura **Transformer** con la publicación de "**Attention is all you need**" por Google Brain, transformando el procesamiento de lenguaje.
     - 2018: **BERT** de Google establece nuevos récords en comprensión de lenguaje natural.
     - 2020: **GPT-3** de OpenAI demuestra capacidades emergentes en modelos de lenguaje a gran escala.
@@ -32,7 +32,7 @@
     - 2022: **ChatGPT** (GPT-3.5) de OpenAI populariza los asistentes conversacionales.
     - 2023: **GPT-4o** de OpenAI y proliferación de modelos **multimodales** (texto, imagen, audio, video).
     - 2024: Primeros modelos con capacidades avanzadas de razonamiento (**OpenAI o1**).
-    - 2025: **DeepSeek-R1** (open-weights) baja el coste de los modelos de lenguaje con un rendimiento similar al de o1.
+    - 2025: **DeepSeek-R1** (*open-weights*) baja el coste de los modelos de lenguaje con un rendimiento similar al de o1.
 
 
 ## El Perceptrón: La Neurona Artificial

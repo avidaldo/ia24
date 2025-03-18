@@ -8,9 +8,10 @@
 - 1958: Frank Rosenblatt desarrolla el **Perceptrón**, considerado la primera red neuronal implementada.
 - 1969: Minsky y Papert publican "Perceptrons", donde demuestran las limitaciones del perceptrón simple, lo que provoca el "invierno de la IA".
 - 1986: Hinton, Rumelhart y Williams publican el algoritmo de ***backpropagation***, que **permite entrenar redes neuronales multicapa**.
+- 1988: LeCun et al. presentan el primer modelo de red neuronal convolucional para el reconocimiento de caracteres manuscritos (MNIST).
 - 1997: Hochreiter & Schmidhuber introducen las **LSTM** (Long Short-Term Memory), fundamentales para el procesamiento de secuencias y series temporales.
 
-### El Boom del Deep Learning (2012-presente)
+### El Boom de la IA (2012-presente)
 
 - Causas: 
     - Aumento de la capacidad de cómputo (GPUs, TPUs)
@@ -29,7 +30,7 @@
     - 2020: **GPT-3** de OpenAI demuestra capacidades emergentes en modelos de lenguaje a gran escala.
     - 2021: Los **modelos de difusión** (DALL-E, GLIDE) comienzan a dominar la generación de imágenes realistas.
     - 2022: **ChatGPT** (GPT-3.5) de OpenAI populariza los asistentes conversacionales.
-    - 2023: **GPT-4** de OpenAI y proliferación de modelos **multimodales** (texto, imagen, audio, video).
+    - 2023: **GPT-4o** de OpenAI y proliferación de modelos **multimodales** (texto, imagen, audio, video).
     - 2024: Primeros modelos con capacidades avanzadas de razonamiento (**OpenAI o1**).
     - 2025: **DeepSeek-R1** (open-weights) baja el coste de los modelos de lenguaje con un rendimiento similar al de o1.
 
@@ -88,6 +89,8 @@ class Perceptron(nn.Module):
 ## Redes Neuronales Multicapa (MLP)
 
 Para superar las limitaciones del perceptrón simple, surgieron las redes neuronales multicapa.
+
+> [*Playlist* sobre redes neuronales en el video de 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) ([versión doblada a español](https://www.youtube.com/watch?v=jKCQsndqEGQ)).
 
 ### Estructura de una Red Neuronal Multicapa
 

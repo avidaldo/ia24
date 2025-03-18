@@ -39,6 +39,7 @@
 El perceptrón es la unidad fundamental de una red neuronal, inspirado en el funcionamiento básico de una neurona biológica.
 
 > [¿Qué es una Red Neuronal? Parte 1 : La Neurona | DotCSV](https://www.youtube.com/watch?v=MRIv2IwFTPg)
+  
 > [ChatGPT is made from 100 million of these [The Perceptron]](https://www.youtube.com/watch?v=l-9ALe3U-Fg)
 
 ### Estructura del Perceptrón

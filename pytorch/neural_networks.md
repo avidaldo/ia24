@@ -39,7 +39,7 @@
 
 El perceptrón es la unidad fundamental de una red neuronal, inspirado en el funcionamiento básico de una neurona biológica.
 
-> [¿Qué es una Red Neuronal? Parte 1 : La Neurona | DotCSV](https://www.youtube.com/watch?v=MRIv2IwFTPg)
+> [¿Qué es una Red Neuronal? Parte 1 : La Neurona | DotCSV](https://www.youtube.com/watch?v=MRIv2IwFTPg&list=PL-Ogd76BhmcC_E2RjgIIJZd1DQdYHcVf0&index=7)
   
 > [ChatGPT is made from 100 million of these [The Perceptron]](https://www.youtube.com/watch?v=l-9ALe3U-Fg)
 
@@ -90,7 +90,7 @@ class Perceptron(nn.Module):
 
 Para superar las limitaciones del perceptrón simple, surgieron las redes neuronales multicapa.
 
-> [*Playlist* sobre redes neuronales en el video de 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) ([versión doblada a español](https://www.youtube.com/watch?v=jKCQsndqEGQ)).
+> [3Blue1Brown - But what is a neural network?](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 
 ### Estructura de una Red Neuronal Multicapa
 
@@ -154,6 +154,8 @@ Las funciones de activación son cruciales para introducir no-linealidades en el
 
 > [¿Qué es el Descenso del Gradiente? Algoritmo de Inteligencia Artificial | DotCSV](https://www.youtube.com/watch?v=A6FiCDoz8_4)
 
+> [3Blue1Brown - Gradient descent, how neural networks learn](https://www.youtube.com/watch?v=IHZwWFHWa-w&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=2)
+
 El entrenamiento de una red neuronal busca encontrar los pesos y sesgos óptimos para minimizar una función de pérdida.
 
 ### Función de Pérdida (Loss Function)
@@ -188,6 +190,8 @@ La retropropagación o *backpropagation* es el algoritmo que permite entrenar re
 
 > [¿Qué es una Red Neuronal? Parte 3 : Backpropagation | DotCSV](https://www.youtube.com/watch?v=eNIqz_noix8&list=PL-Ogd76BhmcC_E2RjgIIJZd1DQdYHcVf0&index=10)
 
+> [3Blue1Brown - Backpropagation](https://www.youtube.com/watch?v=Ilg3gGewQ5U&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=3)
+
 ### ¿Cómo funciona?
 
 1. **Forward Pass**: Calcula la salida de la red para una entrada dada
@@ -196,6 +200,8 @@ La retropropagación o *backpropagation* es el algoritmo que permite entrenar re
 4. **Actualización de Pesos**: Ajusta los pesos utilizando la regla de la cadena del cálculo diferencial
 
 ### La Regla de la Cadena en Backpropagation
+
+> [3Blue1Brown - Backpropagation calculus](https://www.youtube.com/watch?v=tIeHLnjs5U8&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=4)
 
 La clave matemática detrás de backpropagation es la regla de la cadena, que permite calcular gradientes en redes de múltiples capas:
 

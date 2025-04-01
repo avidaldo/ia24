@@ -50,6 +50,8 @@
   - [Transformadores personalizados](./end2end/e2e051_custom_transformers.ipynb)
   - [Tratamiento de latitud y longitud](./end2end/e2e060_spatial_clustering.ipynb)
 - [Entrenamiento y evaluación del modelo](./end2end/e2e070_model_evaluation.ipynb)
+- [Optimización de hiperparámetros](./end2end/e2e080_hyperparameters.ipynb)
+  - [Probando más parámetros con RandomizedSearchCV](./end2end/e2e081_hyperparameters_tarea.ipynb)
   
 
 ### Otro problema de regresión: esperanza de vida

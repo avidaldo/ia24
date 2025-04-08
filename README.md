@@ -76,7 +76,7 @@
 - [Introducción a redes neuronales](./pytorch/neural_networks.md)
 - [Introducción a PyTorch y tensores](./pytorch/01_pytorch.ipynb)
 - [Ejemplo completo de clasificación de Fashion MNIST](./pytorch/02_FashionMNIST.ipynb)
-- [Explicación de modelos y capas lineares](./pytorch/pytorch_models.ipynb)
+- [Explicación de modelos y capas lineales](./pytorch/pytorch_models.ipynb)
 - [Ejemplo simple de clasificación de Iris con NN](./pytorch/pytorch_iris.ipynb)
 - [Clasificación de MNIST con FNN](./pytorch/FNN_MNIST.ipynb)
 - [Introducción a redes convolucionales](./pytorch/convoluciones.ipynb)

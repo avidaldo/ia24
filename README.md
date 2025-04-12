@@ -33,7 +33,7 @@
 - Regresión
   - [Regresión lineal sobre diabetes *Toy Dataset* de Scikit-learn](./sklearn/diabetes_regression.ipynb)
 - Clustering
-      - [Clustering de Iris con K-means y comparación con etiquetas](./sklearn/iris_clustering.ipynb)
+  - [Clustering de Iris con K-means y comparación con etiquetas](./sklearn/iris_clustering.ipynb)
       
 ### Precio medio de viviendas por distrito de California (regresión)
 

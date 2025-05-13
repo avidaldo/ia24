@@ -1,3 +1,13 @@
 .gitattributes export-ignore
 
 **/__pycache__/
+**/.ipynb_checkpoints/
+**/.DS_Store
+**/.vscode/
+
+# Modelos entrenados
+*.pth
+
+# Datos
+data/
+**/data/

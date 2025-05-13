@@ -82,7 +82,7 @@
 - [Introducción a redes convolucionales](./pytorch/convoluciones.ipynb)
 - [Clasificación de MNIST con CNN](./pytorch/CNN_MNIST.ipynb)
 - [Clasificación de CIFAR-10 en escala de grises con redes neuronales](./pytorch/CIFAR10_gray.ipynb)
-
+- [Clasificación de CIFAR-10](./pytorch/CIFAR-10/CIFAR-10.ipynb)
 
 ## Recursos
 

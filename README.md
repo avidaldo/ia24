@@ -83,6 +83,8 @@
 - [Clasificación de MNIST con CNN](./pytorch/CNN_MNIST.ipynb)
 - [Clasificación de CIFAR-10 en escala de grises con redes neuronales](./pytorch/CIFAR10_gray.ipynb)
 - [Clasificación de CIFAR-10](./pytorch/CIFAR-10/CIFAR-10.ipynb)
+  - [Depliegue del modelo en una API Rest con FastAPI](https://github.com/avidaldo/cifar-10-fastapi)
+    - [URL con la API desplegada para testeo](https://cifar-10-fastapi.onrender.com/)
 
 ## Recursos
 

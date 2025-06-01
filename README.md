@@ -86,6 +86,7 @@
   - [Depliegue del modelo en una API Rest con FastAPI](https://github.com/avidaldo/cifar-10-fastapi)
     - [URL con la API desplegada para testeo](https://cifar-10-fastapi.onrender.com/)
 - [Regresión en dataset "California housing"](./end2end/e2e090_neural_network/e2e090_neural_network.ipynb)
+- [Clasificación de enfermedades de tiroides](./thyroid/nn/thyroid3.ipynb)
 
 ## Recursos
 

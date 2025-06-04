@@ -91,10 +91,3 @@ def get_preprocessor():
     ],
     remainder='drop'
 )
-
-def get_label_encoder(y_train, y_test):
-    le = LabelEncoder()
-    y_train = le.fit_transform(y_train)
-    y_test = le.transform(y_test)
-    return y_train, y_test, le
-

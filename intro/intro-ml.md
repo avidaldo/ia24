@@ -5,11 +5,11 @@
 ### *Machine Learning* vs. Inteligencia Artificial
 
 
-El concepto de Inteligencia Artificial tiene muchas definiciones y su uso ha ido evolucionando a lo largo del tiempo. El ámbito en el que trabajaremos se centra en el ***machine learning* o aprendizaje automático**, que podemos considerar un subcampo de la inteligencia artificial.
+El concepto de Inteligencia Artificial tiene muchas definiciones y su uso ha ido evolucionando a lo largo del tiempo. A menudo usado como sinónimo, ***machine learning* o aprendizaje automático**, puede ser más fácil de definir.
 
 <img src="img/ai_hierarchy.png" width="200" style="margin: 20px;">
 
-El término pone el énfasis en el **aprendizaje** y podríamos establecer la diferencia en que el el ***machine learning*** se utiliza para resolver problemas para los cuales los humanos no somos capaces de desarrollar algoritmos por nosotros mismos. En lugar de simplemente programar un algoritmo que resuelve el problema, la máquinas aprende a descubrir su propio algoritmos, sin necesidad de que se les diga explícitamente.
+El término pone el énfasis en el **aprendizaje** y podríamos establecer la diferencia en que el ***machine learning*** se utiliza para resolver problemas para los cuales los humanos no somos capaces de desarrollar algoritmos por nosotros mismos. En lugar de simplemente programar un algoritmo que resuelve el problema, la máquina aprende a descubrir su propio algoritmo, sin necesidad de que se les diga explícitamente.
 
 El *machine learning* dota a los sistemas de la capacidad de aprender de los datos con los que se entrena el modelo, identificar patrones y tomar decisiones con mínima intervención humana. A diferencia de la **IA tradicional, donde los programas se diseñan con reglas explícitas**, el **ML construye modelos aprendiendo a partir de datos**, y cuanto más datos se le proporcionan, más aprende y mejor es el **modelo** que construye.
 
